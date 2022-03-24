@@ -1,4 +1,4 @@
-= Antora Default UI
+= LinkedFactory Documentation UI
 // Settings:
 :experimental:
 :hide-uri-scheme:
