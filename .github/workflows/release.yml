@@ -21,3 +21,5 @@ jobs:
       run: npm ci
     - name: Create bundle
       run: npx gulp bundle
+    - name: Deploy to build branch
+      run: bash deploy.sh "${{ secrets.GITHUB_TOKEN }}"
